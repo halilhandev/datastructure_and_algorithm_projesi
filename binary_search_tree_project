@@ -1,1 +1,29 @@
+Proje 3
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
 
+Örnek: root x'dir. root'un sağından y bulunur. Solunda z bulunur vb.
+
+Sorunun cevabı:
+
+  Root 7'dir. 
+  5, 7'den küçüktür. Sola geçer.
+  1, 7'den küçüktür. Sola geçer.
+  8, 7'den büyüktür. Sağa geçer.
+  3, 7'den küçüktür. Sola geçer.
+  6, 7'den küçüktür. Sola geçer.
+  0, 7'den küçüktür. Sola geçer.
+  9, 7'den küçüktür. Sağa geçer.
+  4, 7'den küçüktür. Sola geçer.
+  2, 7'den küçüktür. Sola geçer.
+  
+  Root'un sağından 8 bulunur. Solundan 5 bulunur. 
+  8'in sağından 9 bulunur. 
+  5'in solundan 1 bulunur. Sağından 6 bulunur.
+  1'in solundan 0 bulunur. Sağından 3 bulunur.
+  3'ün solundan 2 bulunur. Sağından 4 bulunur.
+  
+                          [7]
+                      [5]        [8]
+                [1]       [6]        [9]
+           [0]      [3]
+        [2]   [4]
